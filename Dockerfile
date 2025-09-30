@@ -16,5 +16,5 @@ USER node
 # Exponiere den Port 5678
 EXPOSE 5678
 
-# Starte n8n
-CMD ["/usr/local/bin/n8n", "start"]
+# Starte n8n mit dem korrekten Befehl
+CMD ["npx", "n8n", "start"]
