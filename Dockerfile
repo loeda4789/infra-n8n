@@ -17,4 +17,4 @@ USER node
 EXPOSE 5678
 
 # Starte n8n
-CMD ["n8n", "start"]
+CMD ["/usr/local/bin/n8n", "start"]
