@@ -16,5 +16,5 @@ USER node
 # Exponiere den Port 5678
 EXPOSE 5678
 
-# Starte n8n mit dem korrekten Befehl
-CMD ["npx", "n8n", "start"]
+# Starte n8n direkt (das offizielle Image hat n8n bereits installiert)
+CMD ["node", "/usr/local/lib/node_modules/n8n/bin/n8n", "start"]
